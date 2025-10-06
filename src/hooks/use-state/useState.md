@@ -11,3 +11,5 @@ Use a hook that manages states on a react application. To best illustrate the ap
 3. Inside the component, we define a state called ``count`` and a function ``setCount`` that will control it.
 4. We define a function called 'increaseCount' which will run inside of it, the function ``setCount`` which can accept a callback function () => ()
 5. The component will return a div containing: a button which will run the function we defined before on each click; and a counter which will increase by 1 each time the button is clicked.
+
+[Home](/README.md)
