@@ -5,5 +5,5 @@ This repository aims to share the learning journey of React Hooks. Inspiration a
 To run the code run in Terminal > npm run dev
 
 # Sources
-Code examples are here: https://github.com/machadop1407/react-hooks-course-2025/tree/main
-Tutorial by Pmachado: https://www.youtube.com/watch?v=xfKYYRE6-TQ 
+https://github.com/machadop1407/react-hooks-course-2025/tree/main
+https://www.youtube.com/watch?v=xfKYYRE6-TQ 
