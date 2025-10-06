@@ -6,7 +6,7 @@ To run the code run open the project folder in VSCode. In a Terminal run ``npm r
 
 # Content
 
-[here](\src\hooks\use-state\useState.md)
+[useState Readme](/src/hooks/use-state/useState.md)
 
 # Sources
 https://github.com/machadop1407/react-hooks-course-2025/tree/main<br>
