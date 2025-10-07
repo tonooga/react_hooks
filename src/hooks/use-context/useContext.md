@@ -1,14 +1,15 @@
-# The problem
+# useContext
+## The problem
 This hook solves the problem of prop drilling, which is the need to pass the prop from one parent component to the child and to the grandchildren and all the way back, in the case when you need a prop from the parent to be used only by the grandchildren.
 
 To do this you would need to pass the prop also to the child eventhough the child does not need it. This makes the application slower because it needs to re-render everytime the prop change of value.
 
 With useContext you don't need to pass the prop through all the lineage (parent, children, grandchildren). You can make it accessible to all.
 
-# The solution
-Use a hook called useEffect to make the prop available to all levels.
+## The solution
+Use a hook called ``useContext`` to make the prop available to all levels.
 
-# Implementation
+## Implementation
 In the original code we use the useState hook to set up the prop and the function to manage this prop. But we will now use createContext hook:
 1. Import createContext from react
 2. Instantiate an object from class createContext. No argument is needed. We will call it ``GlobalStateContext``.

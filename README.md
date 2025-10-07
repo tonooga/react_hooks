@@ -10,6 +10,7 @@ If you want to test each component at a time you can go to ``App.jsx`` and uncom
 1. [useState Readme](/src/hooks/use-state/useState.md)<br>
 2. [useEffect Readme](/src/hooks/use-effect/useEffect.md)<br>
 3. [useContext Readme](/src/hooks/use-context/useContext.md)<br>
+3. [useReducer Readme](/src/hooks/use-reducer/useReducer.md)<br>
  
 
 # Sources
