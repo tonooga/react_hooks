@@ -15,7 +15,7 @@ We will use this useful repository with mock json data. https://jsonplaceholder.
 
 Let's suppose I want to run the hook useEffect everytime the component renders out.
 
-We will use the concept we saw in the previous hook useState in which we define a State and a function that handles this State. We do this with ``const [data, setData] = useState([])``
+We will use the concept we saw in the previous hook useState in which we define a ``state`` and a function that handles this ``state``. We do this with ``const [data, setData] = useState([])``
 
 1. Import the ``useEffect`` from react.
 2. In the Part I we only test the useEffect hook by fetching from a json repository. Then we give json format to the response. Then we show it in console.
