@@ -2,7 +2,7 @@ import "./App.css";
 // import { StateExample } from "./hooks/use-state/index"
 // import { EffectExample } from "./hooks/use-effect/index"
 import { ContextExample00, ContextExample01 } from "./hooks/use-context/index";
-import { ReducerExample } from "./hooks/use-reducer/index";
+import { ReducerExample00, ReducerExample01 } from "./hooks/use-reducer/index";
 import { RefExample } from "./hooks/use-ref/index";
 import { ImperativeHandleExample } from "./hooks/use-imperative-handle/index";
 import { EffectExample00, EffectExample01 }  from "./hooks/use-effect/index";
@@ -14,11 +14,12 @@ function App() {
     <>
       {/* <ContextExample00 />
       <ContextExample01 /> */}
-      <EffectExample00 />
-      <EffectExample01 />
+      {/* <EffectExample00 />
+      <EffectExample01 /> */}
       {/* <UseIdExample /> */}
       {/* <ImperativeHandleExample /> */}
-      {/* <ReducerExample /> */}
+      <ReducerExample00 />
+      <ReducerExample01 />
       {/* <RefExample /> */}
       {/* <StateExample /> */}
     </>
